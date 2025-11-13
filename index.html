@@ -156,6 +156,11 @@
       border-radius: 999px;
       font-weight: 600;
     }
+    .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  }
 
     .project-card, .edu-card {
       background: var(--card);
@@ -265,7 +270,7 @@
     }
 
     /* Large screens (desktops and laptops) */
-    @media (min-width: 1025px) {
+    @media (min-width: 1200px) {
       .home-content { flex-direction: row; text-align: left; }
       .about-content { flex-direction: row; text-align: left; }
     }
