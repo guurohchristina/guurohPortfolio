@@ -69,7 +69,7 @@
       text-decoration: none;
       font-weight: 600;
       transition: color .3s, transform .3s;
-      font-size: clamp(10px, 2vw, 24px);
+      font-size: clamp(10px, 2vw, 15px);
       
     }
 
@@ -93,7 +93,10 @@
     section.visible { opacity: 1; transform: translateY(0); }
 
     h1, h2, h3 { color: var(--accent2); }
-    p { max-width: 700px; text-align: center; color: var(--muted); line-height: 1.6; margin-top: 12px; }
+    p { max-width: 700px; text-align: center; 
+       color: var(--muted); line-height: 1.6; margin-top: 12px;
+       font-size:clamp(11px, 2vw, 15px);
+      }
 
     .btn {
       background: var(--accent2);
