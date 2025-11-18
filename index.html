@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio — Guuroh Christina</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,7 +103,7 @@
     }
     section.visible { opacity: 1; transform: translateY(0); }
 
-    h1, h2, h3 { color: var(--accent2); }
+    h1, h2, h3 { color: var(--accent2); font-size: clamp(12px, 2vw, 16px); }
     p { max-width: 700px; text-align: center; 
        color: var(--muted); line-height: 1.6; margin-top: 12px;
        font-size:clamp(11px, 2vw, 24px);
@@ -318,8 +318,8 @@
       .profile-pic { width: 400px; height: 400px; }
 
       .about-content { flex-direction: row; align-items: center; }
-      .about-content img { width: 300px; height: 380px; }
-      .aboutcontent { text-align: center; }
+      .about-content img { width: 300px; height: 400px; }
+      .aboutcontent { text-align: left; }
 
       .chip { font-size: 24px; }
       .home-content { flex-direction: row; text-align: left; }
